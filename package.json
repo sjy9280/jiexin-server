@@ -1,0 +1,22 @@
+{
+  "name": "jiexin-server",
+  "version": "1.0.0",
+  "description": "mock weixin server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjy9280/jiexin-server.git"
+  },
+  "author": "joanna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjy9280/jiexin-server/issues"
+  },
+  "homepage": "https://github.com/sjy9280/jiexin-server#readme",
+  "dependencies": {
+    "koa": "^2.14.2"
+  }
+}
