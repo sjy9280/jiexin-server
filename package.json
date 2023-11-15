@@ -4,7 +4,7 @@
   "description": "mock weixin server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js "
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,14 @@
   },
   "homepage": "https://github.com/sjy9280/jiexin-server#readme",
   "dependencies": {
-    "koa": "^2.14.2"
+    "@babel/preset-env": "^7.23.3",
+    "@babel/register": "^7.22.15",
+    "config-lite": "^3.0.0",
+    "connect-mongo": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^8.0.0",
+    "socket.io": "^4.7.2"
   }
 }
